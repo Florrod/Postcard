@@ -1,0 +1,54 @@
+body{
+    font-size: 18px; 
+    font-family: 'Goudy Bookletter 1911', serif;}
+h1{
+    font-size: 24px; 
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+.postcard{
+    width: 700px; 
+    height: 300px; 
+    padding: 10px;
+	position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    border: 2px solid black;
+}
+.postcard-header img{
+    float: right; 
+    max-width: 50px; 
+    margin-right: 8px;
+}
+
+.left-part{
+    float: left; 
+    width: 45%; 
+    margin-right: 10px;
+}
+.rigth-part{
+    float: right; 
+    width: 40%; 
+    
+}
+input { 
+    font-size: 20px; 
+    margin-left: 30px;
+}
+/*.rigth-part input {
+    display: flex;
+}*/
+
+.postcard-footer{
+    padding: 20px; 
+}
+.postcard-footer input [type=submit] {
+    border: none; 
+    border-bottom: 1px solid gray; 
+    align-items: center;
+    display: inline;
+}
+.postcard-body input [type=text] {
+    border: none; 
+    border-bottom: 1px solid gray; 
+}
